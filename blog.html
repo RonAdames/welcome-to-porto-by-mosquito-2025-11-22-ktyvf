@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Porto by Mosquito Blog - Descubre artículos sobre gastronomía, cocina local, y experiencias culinarias en Las Terrenas.">
+    <meta name="keywords" content="blog, gastronomía, cocina local, Las Terrenas, restaurante, recetas, experiencias culinarias">
+    <meta name="author" content="Porto by Mosquito">
+    <meta property="og:title" content="Porto by Mosquito - Blog de Gastronomía">
+    <meta property="og:description" content="Explora nuestro blog sobre gastronomía, cocina local y experiencias culinarias únicas.">
+    <meta property="og:type" content="website">
+    <title>Porto by Mosquito - Blog de Gastronomía y Experiencias Culinarias</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .btn-primary {
+            @apply bg-[#4A90E2] text-white rounded-full px-8 py-3 font-semibold transition-all duration-300 ease-out hover:scale-105 hover:shadow-xl hover:brightness-110 cursor-pointer;
+        }
+        
+        .btn-secondary {
+            @apply bg-[#000000] text-white rounded-full px-8 py-3 font-semibold transition-all duration-300 ease-out hover:scale-105 hover:shadow-xl hover:brightness-110 cursor-pointer;
+        }
+        
+        .card-hover {
+            @apply transition-all duration-300 ease-out hover:scale-105 hover:shadow-xl;
+        }
+        
+        .section-title {
+            @apply text-4xl md:text-5xl font-semibold text-[#000000] tracking-tight;
+        }
+        
+        .section-subtitle {
+            @apply text-lg md:text-xl text-gray-600 font-light leading-relaxed;
+        }
+        
+        .faq-icon {
+            @apply transition-transform duration-300 ease-out;
+        }
+        
+        .mobile-menu {
+            @apply transition-all duration-300 ease-out;
+        }
+        
+        .gradient-accent {
+            background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-8 md:px-16 py-6 flex justify-between items-center">
+            <div class="flex items-center justify-between w-full">
+                <a href="https://RonAdames.github.io/welcome-to-porto-by-mosquito-2025-11-22-ktyvf" class="flex items-center gap-2">
+                    <div class="w-10 h-10 bg-[#4A90E2] rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">P</span>
+                    </div>
+                    <h1 class="text-2xl font-semibold text-[#000000]">Porto</h1>
+                </a>
+                <a href="https://RonAdames.github.io/welcome-to-porto-by-mosquito-2025-11-22-ktyvf" class="text-[#000000] font-light hover:text-[#4A90E2] transition-colors duration-300 flex items-center gap-2">
+                    <i class="fas fa-arrow-left"></i>
+                    Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative py-32 md:py-40 px-8 md:px-16 overflow-hidden">
+        <div class="absolute inset-0 -z-10">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-[#4A90E2] rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-5xl md:text-6xl lg:text-7xl font-semibold text-[#000000] mb-6 leading-tight">
+                Nuestro Blog
+            </h1>
+            <p class="text-2xl md:text-3xl text-[#4A90E2] font-light mb-12 tracking-wide">
+                Historias, Sabores y Experiencias Culinarias
+            </p>
+            <p class="section-subtitle max-w-2xl mx-auto mb-12">
+                Bienvenido al blog de Porto by Mosquito, donde compartimos historias sobre gastronomía, recetas inspiradas en la cocina local, técnicas culinarias innovadoras y experiencias memorables. Descubre el arte detrás de cada plato y sumérgete en el mundo de la cocina caribeña moderna.
+            </p>
+        </div>
+    </section>
+
+    <!-- Blog Content Introduction -->
+    <section class="py-16 md:py-20 px-8 md:px-16 bg-gray-50">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-semibold text-[#000000] mb-6">Lo Que Encontrarás Aquí</h2>
+            <p class="section-subtitle mb-8">
+                En nuestro blog exploramos temas que van desde perfiles de ingredientes locales y técnicas de preparación, hasta historias de nuestros proveedores, consejos de maridaje y reflexiones sobre la importancia de la cocina sostenible. Cada artículo está diseñado para inspirarte y llevarte más profundamente en la experiencia culinaria de Porto by Mosquito.
+            </p>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post -->
+    <section class="py-20 md:py-32 px-8 md:px-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="section-title mb-6">Artículo Destacado</h2>
+            </div>
+
+            <div class="card-hover bg-white rounded-2xl overflow-hidden shadow-lg md:shadow-xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+                    <!-- Featured Post Image -->
+                    <div class="relative h-64 md:h-full min-h-96">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=600&fit=crop" alt="Porto by Mosquito - Magia Culinaria en Las Terrenas" class="w-full h-full object-cover">
+                    </div>
+
+                    <!-- Featured Post Content -->
+                    <div class="p-8 md:p-12 flex flex-col justify-center">
+                        <div class="mb-4">
+                            <span class="inline-block bg-[#4A90E2] bg-opacity-10 text-[#4A90E2] px-4 py-2 rounded-full text-sm font-semibold">
+                                <i class="fas fa-calendar-alt mr-2"></i>
+                                22 de Noviembre, 2025
+                            </span>
+                        </div>
+
+                        <h3 class="text-3xl md:text-4xl font-semibold text-[#000000] mb-6 leading-tight">
+                            Porto by Mosquito: Magia Culinaria en Las Terrenas
+                        </h3>
+
+                        <p class="text-gray-600 font-light leading-relaxed mb-8">
+                            Porto by Mosquito trasciende la experiencia gastronómica típica, ofreciendo una vivencia auténtica de gastronomía caribeña donde ingredientes frescos y locales se encuentran con técnicas culinarias innovadoras. Ubicado frente al océano con vistas panorámicas al atardecer, el restaurante colabora directamente con pescadores y agricultores locales, garantizando la máxima frescura diaria.
+                        </p>
+
+                        <p class="text-gray-600 font-light leading-relaxed mb-8">
+                            El chef crea menús dinámicos que equilibran innovación moderna con tradición dominicana, generando experiencias de degustación memorables. Más allá de la comida excepcional, Porto by Mosquito demuestra compromiso ambiental a través de prácticas sostenibles e iniciativas comunitarias. Con cenas temáticas especiales y colaboraciones con chefs reconocidos, este destino combina pasión, artistry y conexión cultural.
+                        </p>
+
+                        <a href="https://RonAdames.github.io/welcome-to-puerto-by-mosquito-2025-11-22-ktyvf/blog/porto.html" class="btn-primary inline-block w-fit">
+                            Leer Artículo Completo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="py-20 md:py-32 px-8 md:px-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="section-title mb-6">Más Artículos</h2>
+                <p class="section-subtitle max-w-2xl mx-auto">
+                    Próximamente compartiremos más historias, recetas y experiencias culinarias. Mantente atento a nuestras publicaciones.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+                <!-- Placeholder for Future Blog Posts -->
+                <div class="card-hover bg-white rounded-2xl p-8 md:p-10 shadow-lg h-96 flex flex-col justify-center items-center text-center">
+                    <div class="mb-6">
+                        <svg class="w-16 h-16 text-[#4A90E2] opacity-30 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C6.5 6.253 2 10.998 2 17s4.5 10.747 10 10.747c5.5 0 10-4.998 10-10.747S17.5 6.253 12 6.253z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-[#000000] mb-3">Próximo Artículo</h3>
+                    <p class="text-gray-600 font-light">
+                        Estamos preparando contenido exclusivo sobre gastronomía, recetas y experiencias culinarias.
+                    </p>
+                </div>
+
+                <div class="card-hover bg-white rounded-2xl p-8 md:p-10 shadow-lg h-96 flex flex-col justify-center items-center text-center">
+                    <div class="mb-6">
+                        <svg class="w-16 h-16 text-[#4A90E2] opacity-30 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C6.5 6.253 2 10.998 2 17s4.5 10.747 10 10.747c5.5 0 10-4.998 10-10.747S17.5 6.253 12 6.253z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-[#000000] mb-3">Próximo Artículo</h3>
+                    <p class="text-gray-600 font-light">
+                        Estamos preparando contenido exclusivo sobre gastronomía, recetas y experiencias culinarias.
+                    </p>
+                </div>
+
+                <div class="card-hover bg-white rounded-2xl p-8 md:p-10 shadow-lg h-96 flex flex-col justify-center items-center text-center">
+                    <div class="mb-6">
+                        <svg class="w-16 h-16 text-[#4A90E2] opacity-30 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C6.5 6.253 2 10.998 2 17s4.5 10.747 10 10.747c5.5 0 10-4.998 10-10.747S17.5 6.253 12 6.253z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-[#000000] mb-3">Próximo Artículo</h3>
+                    <p class="text-gray-600 font-light">
+                        Estamos preparando contenido exclusivo sobre gastronomía, recetas y experiencias culinarias.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Categories Section -->
+    <section class="py-20 md:py-32 px-8 md:px-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="section-title mb-6">Categorías de Contenido</h2>
+                <p class="section-subtitle max-w-2xl mx-auto">
+                    Explora nuestro contenido por categorías para encontrar los temas que más te interesan.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+                <!-- Category 1 -->
+                <div class="card-hover bg-white rounded-2xl p-8 text-center shadow-lg hover:bg-[#4A90E2] hover:bg-opacity-5 transition-all duration-300">
+                    <div class="mb-4">
+                        <svg class="w-12 h-12 text-[#4A90E2] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m0 0h6m-6-6h-6m0 0H6" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-[#000000] mb-2">Recetas</h3>
+                    <p class="text-gray-600 font-light text-sm">
+                        Descubre recetas inspiradas en nuestra cocina local y técnicas culinarias innovadoras.
+                    </p>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="card-hover bg-white rounded-2xl p-8 text-center shadow-lg hover:bg-[#4A90E2] hover:bg-opacity-5 transition-all duration-300">
+                    <div class="mb-4">
+                        <svg class="w-12 h-12 text-[#4A90E2] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.8 15.3a6 6 0 00-11.6 0" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-[#000000] mb-2">Ingredientes</h3>
+                    <p class="text-gray-600 font-light text-sm">
+                        Explora los ingredientes locales que hacen especial nuestra gastronomía caribeña.
+                    </p>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="card-hover bg-white rounded-2xl p-8 text-center shadow-lg hover:bg-[#4A90E2] hover:bg-opacity-5 transition-all duration-300">
+                    <div class="mb-4">
+                        <svg class="w-12 h-12 text-[#4A90E2] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-[#000000] mb-2">Experiencias</h3>
+                    <p class="text-gray-600 font-light text-sm">
+                        Historias de nuestros clientes y momentos memorables en Porto by Mosquito.
+                    </p>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="card-hover bg-white rounded-2xl p-8 text-center shadow-lg hover:bg-[#4A90E2] hover:bg-opacity-5 transition-all duration-300">
+                    <div class="mb-4">
+                        <svg class="w-12 h-12 text-[#4A90E2] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-[#000000] mb-2">Sostenibilidad</h3>
+                    <p class="text-gray-600 font-light text-sm">
+                        Conoce nuestro compromiso con prácticas culinarias sostenibles y responsables.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-20 md:py-32 px-8 md:px-16 overflow-hidden">
+        <div class="absolute inset-0 -z-10">
+            <img src="https://images.unsplash.com/photo-1517457373614-b7152f800fd1?w=1200&h=600&fit=crop" alt="Cena romántica al atardecer" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+        </div>
+        
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-semibold text-white mb-6">¿Listo para Vivir la Experiencia?</h2>
+            <p class="text-lg md:text-xl text-gray-200 font-light mb-12 leading-relaxed">
+                Descubre por qué Porto by Mosquito es el destino gastronómico favorito de Las Terrenas. Reserva tu mesa hoy y vive la magia de nuestra cocina.
+            </p>
+            <a href="https://www.reservaya.com.do/restaurante/porto-by-mosquito" target="_blank" class="btn-primary inline-block">
+                Reservar Ahora
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Form Section - Inline Minimal Layout -->
+    <section id="contact" class="py-16 bg-white border-t border-gray-200">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-8">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Mantente Conectado</h2>
+          <p class="text-gray-600">Envíanos un mensaje rápido</p>
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="max-w-3xl mx-auto">
+          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+          <input type="hidden" name="redirect" value="false">
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+          <div class="grid md:grid-cols-2 gap-4 mb-4">
+            <input 
+              type="text" 
+              name="name" 
+              required 
+              class="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+              placeholder="Tu Nombre *"
+            >
+            <input 
+              type="email" 
+              name="email" 
+              required 
+              class="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+              placeholder="Tu Email *"
+            >
+          </div>
+
+          <textarea 
+            name="message" 
+            required 
+            rows="3" 
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none resize-none mb-4"
+            placeholder="Tu Mensaje *"
+          ></textarea>
+
+          <div class="text-center">
+            <button 
+              type="submit" 
+              class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            >
+              Enviar Mensaje
+            </button>
+          </div>
+
+          <div id="form-result" class="hidden mt-4 p-4 rounded-lg text-center font-medium"></div>
+        </form>
+      </div>
+    </section>
+
+    <script>
+      (function() {
+        const form = document.querySelector('form[action*="web3forms"]');
+        const resultDiv = document.getElementById('form-result');
+        
+        if (!form) return;
+        
+        form.addEventListener('submit', async function(e) {
+          e.preventDefault();
+          
+          const formData = new FormData(form);
+          const submitButton = form.querySelector('button[type="submit"]');
+          const originalButtonText = submitButton.textContent;
+          
+          submitButton.disabled = true;
+          submitButton.textContent = 'Enviando...';
+          resultDiv.classList.add('hidden');
+          
+          try {
+            const response = await fetch('https://api.web3forms.com/submit', {
+              method: 'POST',
+              body: formData
+            });
+            
+            const data = await response.json();
+            
+            if (response.ok && data.success) {
+              resultDiv.className = 'block mt-4 p-4 rounded-lg text-center font-medium bg-green-50 text-green-800 border border-green-200';
+              resultDiv.textContent = '¡Mensaje enviado exitosamente!';
+              form.reset();
+            } else {
+              resultDiv.className = 'block mt-4 p-4 rounded-lg text-center font-medium bg-red-50 text-red-800 border border-red-200';
+              resultDiv.textContent = data.message || 'Error al enviar el mensaje.';
+            }
+          } catch (error) {
+            resultDiv.className = 'block mt-4 p-4 rounded-lg text-center font-medium bg-red-50 text-red-800 border border-red-200';
+            resultDiv.textContent = 'Error de conexión. Por favor, intenta de nuevo.';
+          } finally {
+            submitButton.disabled = false;
+            submitButton.textContent = originalButtonText;
+          }
+        });
+      })();
+    </script>
+
+    <!-- Footer -->
+    <footer class="bg-[#000000] text-white py-16 md:py-20 px-8 md:px-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8 mb-12">
+                <!-- Column 1: About -->
+                <div>
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="w-10 h-10 bg-[#4A90E2] rounded-full flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">P</span>
+                        </div>
+                        <h3 class="text-xl font-semibold">Porto</h3>
+                    </div>
+                    <p class="text-gray-400 font-light leading-relaxed">
+                        Disfruta de los mejores platos en Las Terrenas. Cocina local fresca, comedor frente al mar y menús seleccionados por el chef.
+                    </p>
+                </div>
+                
+                <!-- Column 2: Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Enlaces Rápidos</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://RonAdames.github.io/welcome-to-porto-by-mosquito-2025-11-22-ktyvf#features" class="text-gray-400 font-light hover:text-[#4A90E2] transition-colors duration-300">Características</a></li>
+                        <li><a href="https://RonAdames.github.io/welcome-to-porto-by-mosquito-2025-11-22-ktyvf#benefits" class="text-gray-400 font-light hover:text-[#4A90E2] transition-colors duration-300">Beneficios</a></li>
+                        <li><a href="https://RonAdames.github.io/welcome-to-porto-by-mosquito-2025-11-22-ktyvf#testimonials" class="text-gray-400 font-light hover:text-[#4A90E2] transition-colors duration-300">Testimonios</a></li>
+                        <li><a href="https://RonAdames.github.io/welcome-to-porto-by-mosquito-2025-11-22-ktyvf#faq" class="text-gray-400 font-light hover:text-[#4A90E2] transition-colors duration-300">Preguntas</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Legal -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-400 font-light hover:text-[#4A90E2] transition-colors duration-300">Política de Privacidad</a></li>
+                        <li><a href="terms.html" class="text-gray-400 font-light hover:text-[#4A90E2] transition-colors duration-300">Términos de Servicio</a></li>
+                        <li><a href="blog.html" class="text-gray-400 font-light hover:text-[#4A90E2] transition-colors duration-300">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Contact -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Contacto</h4>
+                    <ul class="space-y-3">
+                        <li class="text-gray-400 font-light">
+                            <i class="fas fa-envelope text-[#4A90E2] mr-3"></i>
+                            <a href="mailto:reservas@porto.com" class="hover:text-[#4A90E2] transition-colors duration-300">reservas@porto.com</a>
+                        </li>
+                        <li class="text-gray-400 font-light">
+                            <i class="fas fa-map-marker-alt text-[#4A90E2] mr-3"></i>
+                            Las Terrenas, República Dominicana
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Divider -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                    <p class="text-gray-400 font-light text-sm">
+                        &copy; 2025 Porto by Mosquito. Todos los derechos reservados.
+                    </p>
+                    <div class="flex gap-6">
+                        <a href="#" class="text-gray-400 hover:text-[#4A90E2] transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-[#4A90E2] transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-[#4A90E2] transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-[#4A90E2] transition-colors duration-300" aria-label="TripAdvisor">
+                            <i class="fab fa-tripadvisor"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
